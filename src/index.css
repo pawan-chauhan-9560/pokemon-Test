@@ -1,0 +1,100 @@
+/* index.css */
+
+body {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  font-family: 'Press Start 2P', cursive;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-bottom: 2px solid #ffcc00;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #ff5733;
+}
+
+.badge {
+  background: #3498db;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 3px;
+}
+
+.list-group-item {
+  background: #f0f0f0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.button-group button {
+  border: none;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.button-group button:hover {
+  background: #27ae60;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.search-bar input {
+  width: 300px;
+  border: 2px solid #ff5733;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 25px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 10px #ff5733;
+}
+
+.search-bar button {
+  margin-left: 10px;
+  background: #ff5733;
+  color: white;
+  border-radius: 25px;
+  padding: 12px 25px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.search-bar button:hover {
+  background: #27ae60;
+  color: #fff;
+}
